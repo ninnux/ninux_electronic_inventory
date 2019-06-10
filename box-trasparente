@@ -1,0 +1,38 @@
+cassetto 1: magnetometro sparkfun MAG3110
+cassetto 1: accelerometro sparkfun ADXL345
+cassetto 1: level converter sparkfun
+cassetto 1: bme280
+
+cassetto 2: n.4 NRF24L01
+
+cassetto 3: ST-LINK v2
+cassetto 3: n.2 STM32F405RGT6
+
+cassetto 4:n.3 condenzatore elettrolitico 470uF
+cassetto 4:n.3 condenzatore elettrolitico 10uF
+cassetto 4:condenzatore elettrolitico 220uF
+cassetto 4:n.3 condenzatore elettrolitico 100uF
+cassetto 4:n.2 condenzatore elettrolitico 1000uF
+cassetto 4:n.2 condenzatore ceramico 100nF
+
+cassetto 5: MKUSB v2
+
+cassetto 6: n.1 Arduino nano cinese
+
+cassetto 7: n.3 beeper 5v KXG1205C
+
+cassetto 8: n.1 Arduino pro micro
+
+cassetto 9: convertitore seriale USB per acmesystem
+cassetto 9: n.1 pololu regolabile
+cassetto 9: n.2 step-up step-down converter 1.8-5v out 3.3v
+
+cassetto 10: n.4 hall sensors 44E 402
+
+cassetto 11: n4. moduli radio 433
+
+cassetto 12: n1 presa jack con contatti a molla
+
+
+
+

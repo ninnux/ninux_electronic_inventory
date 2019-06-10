@@ -1,0 +1,44 @@
+
+vaschetta in alto:
+vaschetta in alto: n.3 ULN2803
+  e' un array di 8 transistor NPN darlington
+   http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+
+vaschetta in alto: n.2 7805
+vaschetta in alto: n.1 7812
+vaschetta in alto: n.1 4N35
+vaschetta in alto: n.1 dallas 18B20
+
+vaschetta in alto: n.1 78E5.0
+  e' un regolatore switching efficiente (up to 95% - no heat sink)
+  78E5.0 mancano le ultime due cifre, potrebbero essere 0.5
+  0.5A di uscita
+   https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+
+vaschetta in alto: n.5 BC547 B
+ BC547B
+ General Purpose Transistor
+ BC547B
+ TO-92 Plastic Package
+   https://www.farnell.com/datasheets/410427.pdf
+
+vaschetta in alto: n.3 BS170
+ BS170
+ Small Signal MOSFET
+ 500 mA, 60 Volts
+ N-Channel TO-92 (TO-226)
+   https://www.onsemi.com/pub/Collateral/BS170-D.PDF
+
+vaschetta in alto: n.XX diodi silicio e vari
+vaschetta in alto: n.2 condensatori 1nF poli
+vaschetta in alto: n.3 condensatori 0.1uF poli
+vaschetta in alto: n.3 condensatori 0.1uF poli:(DUP? --sal;)
+vaschetta in alto: n.1 fotoresistenza
+vaschetta in alto:
+
+vaschetta centro avanti:
+vaschetta centro avanti: mcp1700 3302 LDO  regolatori 3.3v n. 2
+vaschetta centro avanti: 100uF elettrolitico n. 2
+vaschetta centro avanti: 
+
+
