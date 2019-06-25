@@ -1,6 +1,8 @@
 n. 1 ingroppatore STM32F4
 n. 4 pannello solare 5v 60mA
+n. 1 pannello solare 6v 1W 
 n. 1 ESP32 dev kit (8 euro su amazon) consuma come e' 8mA in deepsleep e 25 accesa
 n. 3 display stampante 3d
 n. 1 scheda ramp stampante 3d
+n. 1 wemos shield v3 18650 3.3v e 5v + cavo usb 
 
