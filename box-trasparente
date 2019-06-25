@@ -1,7 +1,7 @@
 cassetto 1: magnetometro sparkfun MAG3110
 cassetto 1: accelerometro sparkfun ADXL345
 cassetto 1: level converter sparkfun
-cassetto 1: bme280
+cassetto 1: n.4 bme280
 
 cassetto 2: n.4 NRF24L01
 
