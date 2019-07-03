@@ -25,7 +25,8 @@ cassetto 8: n.1 Arduino pro micro
 
 cassetto 9: convertitore seriale USB per acmesystem
 cassetto 9: n.1 pololu regolabile
-cassetto 9: n.2 step-up step-down converter 1.8-5v out 3.3v
+cassetto 9: n.3 step-up step-down converter 1.8-5v out 3.3v
+cassetto 9: n.2 step-down converter >5v out 3.3v
 
 cassetto 10: n.4 hall sensors 44E 402
 
