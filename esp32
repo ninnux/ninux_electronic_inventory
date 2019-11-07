@@ -1,0 +1,21 @@
+
+Heltec
+ˆˆˆˆˆˆ
+* due versioni 
+  * v1 problema con il deepsleep per CP2102 che cerca usb e per piede CS Lora collegato ad un piede del micro che non puo' essere comandato in deepsleep per non selezionare la scheda che non va a sua volta in deepsleep: "One important thing to understand is that NSS (SPI Cable Select) is active low. In deep sleep mode, the esp32 releases all outputs state to low, so the LoRa chip becomes active again. The trick is to use the rtc_gpio_hold_en(gpio_num_t gpio_num) function to keep HIGH the NSS pin."
+    vedi: 
+	* https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/issues/6#issuecomment-374148234
+	* https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/issues/6#issuecomment-398635618
+  * v2 piu' efficace, ancora (2018-11-04) non bene documentati 
+
+deep sleep
+ˆˆˆˆˆˆˆˆˆˆ
+lista RTC GPIO: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf pagina 50
+bisogna procare a collegare il NSS della radio ad uno dei pin RTC e provare a tenere spenta la radio mentre si e' in deepsleep
+
+Google sheet con schede provate e consumi
+ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ
+
+* https://docs.google.com/spreadsheets/d/1Mu-bNwpnkiNUiM7f2dx8-gPnIAFMibsC2hMlWhIHbPQ/edit#gid=0
+
+
