@@ -19,3 +19,19 @@ Google sheet con schede provate e consumi
 * https://docs.google.com/spreadsheets/d/1Mu-bNwpnkiNUiM7f2dx8-gPnIAFMibsC2hMlWhIHbPQ/edit#gid=0
 
 
+
+test consumi
+ˆˆˆˆˆˆˆˆˆˆˆˆˆ
+nodo,software,note hw,condizione di test, misure consumo mAh/tempo, consumo stimato
+lolin32 sola , deepsleep esempio senza interrupt da pin, , risveglio ogni 300sec, 5.29mAh/26h, 5mAh/giorno
+lolin32 + bme280 deepsleep, bme280 collagato diretto a i2c e vcc , risveglio ogni 300sec, 61,28mAh/24h, 61mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, NSS su porta 27 no code per rtc pin, trasmissione ogni 20sec, 8.36mAh/1h, 192mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, NSS su porta 27 code pullup_en, trasmissione ogni 20sec, 4.77mAh/22min, 347mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, NSS su porta 27 code pullup_en e opmode(sleep), trasmissione ogni 5min, 17.58mA/12h, 35mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, NSS su porte 27 e 25 code pullup_en e opmode(sleep), trasmissione ogni 5min,(2.21mAh/1h), 48mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, 27 e 5 pullup fisiche e shield lora, trasmissione ogni 5min, (0.51mAh/1h) (20.31mAh/19h), 25mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, pullup fisico su NSS (5) e shield lora, trasmissione ogni 5min, (12.80mAh/11:20h), 25mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, senza nessun pullup fisico e sw shield lora, trasmissione ogni 5min, 
+
+ 
+
