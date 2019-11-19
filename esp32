@@ -37,9 +37,9 @@ lolin32 + lorawan, send_recv otaa+abp, senza nessun pullup fisico e sw shield lo
 lolin32 + lorawan, send_recv otaa+abp, 27 e 5 pullup fisiche e shield lora + opmode(sleep), trasmissione ogni 5min, 10.41mAh/8:30h), 29mAh/giorno
 
 lolin32 + lorawan, send_recv otaa+abp, 5 pullup fisiche e shield lora + opmode(sleep),accenzione ogni 5 min e trasmissione ogni 1 ora, (3.58mAh/8:30h), 10mAh/giorno
-lolin32 + lorawan, send_recv otaa+abp, nessun pullup fisiche e shield lora + opmode(sleep),accenzione ogni 5 min e trasmissione ogni 1 ora, (60mAh/19h) (5.80mAh/12h),11mAh/giorno
+lolin32 + lorawan, send_recv otaa+abp, nessun pullup fisiche e shield lora + opmode(sleep),accenzione ogni 5 min e trasmissione ogni 1 ora, (60mAh/19h) (5.80mAh/12h) (9.21mAh/15h) (10.92mAh/18:48h) (11.60mAh/20:20h), 14mAh/giorno
 
-
-
- 
-
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5, accenzione ogni 5 min e trasmissione ogni 1 ora, 7.68mAh/8h, 25mAh/giorno 
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5 + bme280 force mode iniziale, accenzione ogni 5 min e trasmissione ogni 1 ora, 18.43mAh/giorno, 18.43mAh/giorno
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5 + bme280 altro force mode valori corretti, accenzione ogni 5 min e trasmissione ogni 1 ora,
+, (11.43mAh/15h) 
