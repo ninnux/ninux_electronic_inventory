@@ -41,7 +41,9 @@ lolin32 + lorawan, send_recv otaa+abp, nessun pullup fisiche e shield lora + opm
 
 lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5, accenzione ogni 5 min e trasmissione ogni 1 ora, 7.68mAh/8h, 25mAh/giorno 
 lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5 + bme280 force mode iniziale, accenzione ogni 5 min e trasmissione ogni 1 ora, 18.43mAh/giorno, 18.43mAh/giorno
-lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5 + bme280 altro force mode valori corretti, accenzione ogni 5 min e trasmissione ogni 1 ora,
-, (11.43mAh/15h) 
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp, pullup su 5 + bme280 altro force mode valori corretti, accenzione ogni 5 min e trasmissione ogni 1 ora, (11.43mAh/15h) 
 lolin32 + bme280, bme280 deepsleep ninuxsensordata_pb, bme280 in force mode, accenzione e lettura dati ogni 5min e trasmissione ogni 1 ora, (8.36mAh/8:00h circa) (10.07mAh/13:30h) (28.33mAh/36:30h) ,18mAh/giorno
+
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 8 intervalli ora di tre misure, (48.25mAh/12h), 100mAh/giorno
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 8 intervalli ora di una sola misura, (6.50mAh/4.5h (12,30/9h), 32mAh/giorno
 
