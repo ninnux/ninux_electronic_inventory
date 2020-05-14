@@ -47,3 +47,5 @@ lolin32 + bme280, bme280 deepsleep ninuxsensordata_pb, bme280 in force mode, acc
 lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 8 intervalli ora di tre misure, (48.25mAh/12h), 100mAh/giorno
 lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 8 intervalli ora di una sola misura, (6.50mAh/4.5h (12,30/9h), 32mAh/giorno
 
+lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 5 intervalli ora di tre misure aggregate con tre invii, eliminato il problema dell'attesa dovuta al dutycycle, 23/mAh/24h, 23mAh/giorno
+
