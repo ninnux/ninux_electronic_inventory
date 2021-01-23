@@ -49,3 +49,8 @@ lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggr
 
 lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 5 intervalli ora di tre misure aggregate con tre invii, eliminato il problema dell'attesa dovuta al dutycycle, 23/mAh/24h, 23mAh/giorno
 lolin32 + lorawan + bme280, esp-idf_deepsleep_lorawan_bme280 otaa+abp - lpp aggregated, pullup su 5 + bme280 altro force, accenzione ogni 5 min e trasmissione ogni 8 intervalli ora di tre misure aggregate con tre invii, eliminato il problema dell'attesa dovuta al dutycycle, 20/mAh/24h, 20mAh/giorno
+
+
+lolin32 + ds18x20 deepsleep, sensore 1-wire collagato diretto a pin 17, branch master senza sensore batteria risveglio ogni 300sec, 7mAh/2h , 88mAh/giorno
+firebeatle piscina + ds18x20 deepsleep, sensore 1-wire con relay , branch master senza sensore batteria risveglio ogni 300sec, 2.5mAh12h , 60mAh/giorno
+
